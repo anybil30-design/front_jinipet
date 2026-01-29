@@ -33,7 +33,7 @@ const Join = () => {
   // 아이디 중복확인
   const checkUsername = () =>{
     // form.username
-    axios.post('http://localhost:9070/check-username', {
+    axios.post('https://port-0-backend-express-server-mkvweoae71d9732c.sel3.cloudtype.app/check-username', {
       username:form.username
     })
     .then(res=>{
@@ -58,7 +58,7 @@ const Join = () => {
 
     // 비밀번호가 일치하면 서버측으로 내용을 전송합니다.
     try{
-      await axios.post('http://localhost:9070/register', form);
+      await axios.post('https://port-0-backend-express-server-mkvweoae71d9732c.sel3.cloudtype.app/ginipet_register', form);
       alert('회원가입이 완료되었습니다. 로그인 페이지로 이동합니다.');
       navigate('/login');
     }catch(err){
@@ -112,5 +112,6 @@ const Join = () => {
     </main>
   );
 };
+
 
 export default Join;
