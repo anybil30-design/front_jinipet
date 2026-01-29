@@ -24,7 +24,7 @@ const Login = () => {
   const handleSubmit=async(e)=>{
     e.preventDefault();
     try{
-      const {data} = await axios.post('http://localhost:9070/login',form);
+      const {data} = await axios.post('https://port-0-backend-express-server-mkvweoae71d9732c.sel3.cloudtype.app/ginipet_login',form);
       // 성공시 작업
       //JWT 토근 저장
       localStorage.setItem('token', data.token);        // 토큰 저장
@@ -81,5 +81,6 @@ const Login = () => {
     </main>
   );
 };
+
 
 export default Login;
