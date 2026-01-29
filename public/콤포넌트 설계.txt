@@ -1,0 +1,27 @@
+Frontend 셋팅과 UI구현
+1. 프로젝트 생성
+ npx create-react-app frontend
+
+2. 추가 모듈 설치
+ npm i react-router-dom
+ npm i axios
+ npm i swiper
+ npm i fontawesome
+
+3. 콤포넌트 작성
+Index, App, Header, Footer
+Cart, Customer, Event, Info, Intro, Join, Login,  Main, Order  (13개)
+
+4. App.js
+- 라우터 설정(BrowserRouter, Routes, Route)
+- 서식(css) 작성하여 연결(reset, common, layout)
+
+5. Header, Footer콤포넌트 작성
+- Header 콤포넌트 구현(로고, 모바일 내비게이션)
+- Footer 콤포넌트 구현
+
+6. Main 콤포넌트 구현
+- 각 section 이미지 넣어서 임시로 만듬.
+
+ -----------------------------------------------
+

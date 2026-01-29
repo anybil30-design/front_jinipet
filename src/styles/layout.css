@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body{width: 100%; background-color: rgb(201, 201, 201);}
+.body{max-width: 767px; min-width: 360px; margin: 0 auto;}
+/* header서식 */
+.header{
+  height:64px;
+  background: var(--main_txt_color);
+  position: relative;
+}
+.header h1{text-align: center;}
+.header h1 img{width: 48px; padding-top: 5px;}
+
+
+.footer img{
+  width: 100%;
+}
+
+
+
+
+
+
+/* footer서식 */
